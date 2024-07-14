@@ -8,8 +8,8 @@ console.log('kr lea ha get bai party ho gyai ajj to', process.env.MONGODB_URI);
 
 ConnectDB()
 .then(()=>{
-    app.listen(process.env.PORT || 8000, ()=>{
-       console.log("Data a gya ash kr");
+    app.listen(process.env.PORT , ()=>{
+       console.log(`port no  ${process.env.PORT} pr chal rha hai`);
     })
 })
 .catch((error)=>{
