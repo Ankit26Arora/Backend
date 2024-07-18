@@ -24,6 +24,8 @@ app.get('/test', (req, res) => {
     res.send('Server is working!');
 });
 
+// app.use('/api/v1/user',userRoute)
+
 // const PORT = 3000;
 // app.listen(PORT, () => {
 //     console.log(`Server is running on http://localhost:${PORT}`);
